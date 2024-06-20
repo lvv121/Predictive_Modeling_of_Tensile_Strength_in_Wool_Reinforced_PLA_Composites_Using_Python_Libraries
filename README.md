@@ -75,14 +75,26 @@ CatBoost | 4.760374 | 1.720607 | 2.181828 | 0.901651
 
 ## Wizualizacja Wyników
 
-![Heatmap Linear Regression](Heatmap_LinearRegression.png)
+### Heatmapa Modelu Regresji Liniowej przy użyciu bibliotek Python:
+
+![Heatmap Linear Regression Python](Heatmap_LinearRegression.png)
+
+### Heatmapa Modelu Regresji Liniowej przy użyciu narzędzi Azure:
+
+![Heatmap Linear Regression Azure](Heatmap_LinearRegression_Azure.png)
 
 ### Opis Wyników dla Modelu Regresji Liniowej:
 
 Model regresji liniowej pokazuje ogólny trend, gdzie wzrost stężenia środków sprzęgających i redukcja stężenia włókna prowadzi do wzrostu wytrzymałości na rozciąganie. Największe poprawy zauważalne są przy niskich stężeniach środków sprzęgających (do 0,5 phr). Środki sprzęgające B i D wykazały największą skuteczność.
 Możemy zauważyć niewielką różnicę w wynikach metryk jednak niższy RMSE i wyższy R² co świadczy o większej dokładności modelu wygenerowanego przez bibliotekę Python.
 
-![Heatmap Gradient Boosting](Heatmap_GradientBoosting.png)
+### Heatmapa Modelu Gradient Boosting przy użyciu bibliotek Python:
+
+![Heatmap Gradient Boosting Azure](Heatmap_GradientBoosting.png)
+
+### Heatmapa Modelu Gradient Boosting przy użyciu narzędzi Azure:
+
+![Heatmap Gradient Boosting Python](Heatmap_GradientBoosting_Azure.png)
 
 ### Opis Wyników dla Modelu Gradient Boosting:
 

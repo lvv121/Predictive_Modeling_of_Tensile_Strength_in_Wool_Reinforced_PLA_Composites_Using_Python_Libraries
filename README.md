@@ -1,4 +1,4 @@
-# Modelowanie predykcyjne wytrzymałości na rozciąganie kompozytów PLA wzmocnionych wełną przy użyciu bibliotek Python (eng. Predictive Modeling of Tensile Strength in Wool-Reinforced PLA Composites Using Python Libraries)
+### Modelowanie predykcyjne wytrzymałości na rozciąganie kompozytów PLA wzmocnionych wełną przy użyciu bibliotek Python (eng. Predictive Modeling of Tensile Strength in Wool-Reinforced PLA Composites Using Python Libraries)
 
 # Wstęp
 
@@ -75,14 +75,18 @@ Najlepszy model to CatBoost z najniższym RMSE (2.181828) i najwyższym R² (0.9
 
 # Wizualizacja Wyników
 
+![Heatmap Linear Regression](../master/Heatmap_LinearRegression.png)
+
 Opis Wyników dla Modelu Regresji Liniowej:
+
 Model regresji liniowej pokazuje ogólny trend, gdzie wzrost stężenia środków sprzęgających i redukcja stężenia włókna prowadzi do wzrostu wytrzymałości na rozciąganie. Największe poprawy zauważalne są przy niskich stężeniach środków sprzęgających (do 0,5 phr). Środki sprzęgające B i D wykazały największą skuteczność.
-Heatmapy wygenerowane podczas poprzednich badań używając tego modelu: 
 Możemy zauważyć niewielką różnicę w wynikach metryk jednak niższy RMSE i wyższy R² co świadczy o większej dokładności modelu wygenerowanego przez bibliotekę Python.
 
+![Heatmap Gradient Boosting](../master/Heatmap_Heatmap_GradientBoosting.png)
+
 Opis Wyników dla Modelu Gradient Boosting:
+
 Model Gradient Boosting grupuje dane w bardziej zwarte podzbiory. Wzrost stężenia środków sprzęgających przy niskim stężeniu włókna poprawia wytrzymałość na rozciąganie. Przy wyższych stężeniach włókna (powyżej 7 phr), nawet niskie stężenia środków sprzęgających poprawiają wytrzymałość na rozciąganie.
-Heatmapy wygenerowane podczas poprzednich badań używając tego modelu: 
 Możemy zauważyć niewielką różnicę w wynikach metryk jednak niższy RMSE i wyższy R² co świadczy o większej dokładności modelu wygenerowanego przez narzędzia Azure.
 
 # Podsumowanie

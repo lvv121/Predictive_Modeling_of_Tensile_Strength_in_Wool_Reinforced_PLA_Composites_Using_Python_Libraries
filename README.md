@@ -129,3 +129,4 @@ Możemy zauważyć niewielką różnicę w wynikach metryk jednak niższy RMSE i
 - 'db_PLA_wool_ca_mechterm v2.csv'
 - https://www.mdpi.com/2073-4360/12/11/2523
 - https://www.mdpi.com/2073-4360/11/9/1514
+- https://doi.org/10.3390/polym11091514
